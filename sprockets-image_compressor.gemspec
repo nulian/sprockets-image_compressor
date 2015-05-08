@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "sprockets/image_compressor/version"
 
 Gem::Specification.new do |s|
-  s.name        = "sprockets-image_compressor"
+  s.name        = "sprockets-image_compressor_holder"
   s.version     = Sprockets::Imagecompressor::VERSION
   s.authors     = ["Micah Geisel"]
   s.email       = ["micah@botandrose.com"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = %q{Losslessly compress images in the Rails asset pipeline}
   s.license     = "MIT"
 
-  s.rubyforge_project = "sprockets-image_compressor"
+  s.rubyforge_project = "sprockets-image_compressor_holder"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
